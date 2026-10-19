@@ -20,7 +20,6 @@ int main(){
         }
     }
     
-
     printf("The Number of word in '%s': %d",str,word);
 
     return 0;
