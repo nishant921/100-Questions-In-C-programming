@@ -13,13 +13,13 @@ int main(){
     str[strcspn(str,"\n")] = '\0';
 
     int word = 0;
+    
     for (int i = 0; str[i]!='\0'; i++)
     {
         if (str[i]!=' ' && (i==0 || str[i-1]==' ')){
             word++;
         }
     }
-    
     printf("The Number of word in '%s': %d",str,word);
 
     return 0;
